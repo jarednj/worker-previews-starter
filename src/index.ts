@@ -88,7 +88,7 @@ export default {
 		if (deleteMatch && request.method === "DELETE") {
 			const id = Number(deleteMatch[1]);
 			try {
-				await env.DB.prepare("DELETE FROM activity_log WHERE id = ?").bind(id).run();
+				await env.DB.prepare("DELETE FROM activity_log WHERE rowid = ?").bind(id).run();
 				return json({ entries: await listEntries(env.DB) });
 			} catch (error) {
 				console.error({
