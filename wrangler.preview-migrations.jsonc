@@ -1,0 +1,12 @@
+{
+	"name": "worker-previews-starter",
+	"compatibility_date": "2025-10-08",
+	"d1_databases": [
+		{
+			"binding": "PREVIEW_DB",
+			"database_id": "97cac936-8339-47ee-a265-54bec6611609",
+			"database_name": "activity-log-preview-db",
+			"migrations_dir": "preview-migrations"
+		}
+	]
+}

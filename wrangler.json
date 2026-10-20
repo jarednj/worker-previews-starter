@@ -10,7 +10,7 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_id": "6f6bd5c9-156c-4089-8f6a-6e26a47b3d57",
+			"database_id": "35160191-10a6-416c-94c6-bf3e12442a19",
 			"database_name": "activity-log-db"
 		}
 	],
@@ -24,6 +24,13 @@
 	"previews": {
 		"vars": {
 			"ENVIRONMENT": "preview"
-		}
+		},
+		"d1_databases": [
+			{
+				"binding": "DB",
+				"database_id": "97cac936-8339-47ee-a265-54bec6611609",
+				"database_name": "activity-log-preview-db"
+			}
+		]
 	}
 }
